@@ -1,0 +1,166 @@
+2020-04-15 13:50:56,567 INFO 51567 [egg:logger] init all loggers with options: {"dir":"/Users/erchuang.li/workspace/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-15 13:50:56,575 INFO 51567 [egg:core] dump config after load, 3ms
+2020-04-15 13:50:56,611 INFO 51567 [egg-watcher] Start watching: ["/Users/erchuang.li/workspace/egg-demo/app","/Users/erchuang.li/workspace/egg-demo/config","/Users/erchuang.li/workspace/egg-demo/mocks","/Users/erchuang.li/workspace/egg-demo/mocks_proxy","/Users/erchuang.li/workspace/egg-demo/app.js"]
+2020-04-15 13:50:56,611 INFO 51567 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app"
+2020-04-15 13:50:56,611 INFO 51567 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/config"
+2020-04-15 13:50:56,611 INFO 51567 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks"
+2020-04-15 13:50:56,612 INFO 51567 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks_proxy"
+2020-04-15 13:50:56,612 INFO 51567 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app.js"
+2020-04-15 13:50:56,612 INFO 51567 [egg-watcher:agent] watcher start success
+2020-04-15 13:50:56,618 INFO 51567 [egg:core] dump config after ready, 3ms
+2020-04-15 13:50:57,457 INFO 51567 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/erchuang.li/workspace/egg-demo/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1701540,"size":64,"blocks":0,"atimeMs":1586929857450.2185,"mtimeMs":1586929857450.2185,"ctimeMs":1586929857450.2185,"birthtimeMs":1586929857450.2185,"atime":"2020-04-15T05:50:57.450Z","mtime":"2020-04-15T05:50:57.450Z","ctime":"2020-04-15T05:50:57.450Z","birthtime":"2020-04-15T05:50:57.450Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-04-15 13:51:26,308 INFO 51713 [egg:logger] init all loggers with options: {"dir":"/Users/erchuang.li/workspace/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-15 13:51:26,318 INFO 51713 [egg:core] dump config after load, 4ms
+2020-04-15 13:51:26,349 INFO 51713 [egg-watcher] Start watching: ["/Users/erchuang.li/workspace/egg-demo/app","/Users/erchuang.li/workspace/egg-demo/config","/Users/erchuang.li/workspace/egg-demo/mocks","/Users/erchuang.li/workspace/egg-demo/mocks_proxy","/Users/erchuang.li/workspace/egg-demo/app.js"]
+2020-04-15 13:51:26,349 INFO 51713 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app"
+2020-04-15 13:51:26,349 INFO 51713 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/config"
+2020-04-15 13:51:26,349 INFO 51713 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks"
+2020-04-15 13:51:26,349 INFO 51713 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks_proxy"
+2020-04-15 13:51:26,349 INFO 51713 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app.js"
+2020-04-15 13:51:26,350 INFO 51713 [egg-watcher:agent] watcher start success
+2020-04-15 13:51:26,360 INFO 51713 [egg:core] dump config after ready, 3ms
+2020-04-15 17:02:28,414 INFO 55001 [egg:logger] init all loggers with options: {"dir":"/Users/erchuang.li/workspace/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-15 17:02:28,425 INFO 55001 [egg:core] dump config after load, 5ms
+2020-04-15 17:02:28,467 INFO 55001 [egg-watcher] Start watching: ["/Users/erchuang.li/workspace/egg-demo/app","/Users/erchuang.li/workspace/egg-demo/config","/Users/erchuang.li/workspace/egg-demo/mocks","/Users/erchuang.li/workspace/egg-demo/mocks_proxy","/Users/erchuang.li/workspace/egg-demo/app.js"]
+2020-04-15 17:02:28,467 INFO 55001 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app"
+2020-04-15 17:02:28,468 INFO 55001 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/config"
+2020-04-15 17:02:28,468 INFO 55001 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks"
+2020-04-15 17:02:28,468 INFO 55001 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks_proxy"
+2020-04-15 17:02:28,468 INFO 55001 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app.js"
+2020-04-15 17:02:28,468 INFO 55001 [egg-watcher:agent] watcher start success
+2020-04-15 17:02:28,479 INFO 55001 [egg:core] dump config after ready, 2ms
+2020-04-15 17:14:15,654 INFO 55143 [egg:logger] init all loggers with options: {"dir":"/Users/erchuang.li/workspace/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-15 17:14:15,663 INFO 55143 [egg:core] dump config after load, 3ms
+2020-04-15 17:14:15,692 INFO 55143 [egg-watcher] Start watching: ["/Users/erchuang.li/workspace/egg-demo/app","/Users/erchuang.li/workspace/egg-demo/config","/Users/erchuang.li/workspace/egg-demo/mocks","/Users/erchuang.li/workspace/egg-demo/mocks_proxy","/Users/erchuang.li/workspace/egg-demo/app.js"]
+2020-04-15 17:14:15,693 INFO 55143 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app"
+2020-04-15 17:14:15,693 INFO 55143 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/config"
+2020-04-15 17:14:15,693 INFO 55143 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks"
+2020-04-15 17:14:15,693 INFO 55143 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks_proxy"
+2020-04-15 17:14:15,693 INFO 55143 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app.js"
+2020-04-15 17:14:15,693 INFO 55143 [egg-watcher:agent] watcher start success
+2020-04-15 17:14:15,704 INFO 55143 [egg:core] dump config after ready, 3ms
+2020-04-15 17:25:34,613 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664849,"size":191,"blocks":8,"atimeMs":1586929743734.2478,"mtimeMs":1586942734548.711,"ctimeMs":1586942734548.711,"birthtimeMs":1586929741581.0488,"atime":"2020-04-15T05:49:03.734Z","mtime":"2020-04-15T09:25:34.549Z","ctime":"2020-04-15T09:25:34.549Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:25:34,821 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/config/plugin.js change
+2020-04-15 17:31:36,410 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/config/config.default.js change
+2020-04-15 17:31:36,208 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664848,"size":555,"blocks":8,"atimeMs":1586929743733.83,"mtimeMs":1586943096146.2432,"ctimeMs":1586943096146.2432,"birthtimeMs":1586929741580.6833,"atime":"2020-04-15T05:49:03.734Z","mtime":"2020-04-15T09:31:36.146Z","ctime":"2020-04-15T09:31:36.146Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:31:47,607 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664848,"size":556,"blocks":8,"atimeMs":1586943098378.0474,"mtimeMs":1586943107595.6694,"ctimeMs":1586943107595.6694,"birthtimeMs":1586929741580.6833,"atime":"2020-04-15T09:31:38.378Z","mtime":"2020-04-15T09:31:47.596Z","ctime":"2020-04-15T09:31:47.596Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:31:47,658 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664848,"size":556,"blocks":8,"atimeMs":1586943098378.0474,"mtimeMs":1586943107595.6694,"ctimeMs":1586943107595.6694,"birthtimeMs":1586929741580.6833,"atime":"2020-04-15T09:31:38.378Z","mtime":"2020-04-15T09:31:47.596Z","ctime":"2020-04-15T09:31:47.596Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:31:47,861 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/config/config.default.js change
+2020-04-15 17:35:18,882 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/config/config.default.js change
+2020-04-15 17:35:18,678 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664848,"size":968,"blocks":8,"atimeMs":1586943109918.7622,"mtimeMs":1586943318616.559,"ctimeMs":1586943318616.559,"birthtimeMs":1586929741580.6833,"atime":"2020-04-15T09:31:49.919Z","mtime":"2020-04-15T09:35:18.617Z","ctime":"2020-04-15T09:35:18.617Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:36:04,197 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/config/config.default.js change
+2020-04-15 17:36:03,991 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664848,"size":968,"blocks":8,"atimeMs":1586943320403.2114,"mtimeMs":1586943363930.3748,"ctimeMs":1586943363930.3748,"birthtimeMs":1586929741580.6833,"atime":"2020-04-15T09:35:20.403Z","mtime":"2020-04-15T09:36:03.930Z","ctime":"2020-04-15T09:36:03.930Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:38:38,677 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664846,"size":233,"blocks":8,"atimeMs":1586929744410.7986,"mtimeMs":1586943518616.299,"ctimeMs":1586943518616.299,"birthtimeMs":1586929741580.361,"atime":"2020-04-15T05:49:04.411Z","mtime":"2020-04-15T09:38:38.616Z","ctime":"2020-04-15T09:38:38.616Z","birthtime":"2020-04-15T05:49:01.580Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:38:38,880 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/router.js change
+2020-04-15 17:38:56,424 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/controller/register.js rename
+2020-04-15 17:38:56,222 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/register.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1719639,"size":0,"blocks":0,"atimeMs":1586943535897.5923,"mtimeMs":1586943535897.5923,"ctimeMs":1586943535897.5923,"birthtimeMs":1586943535897.5923,"atime":"2020-04-15T09:38:55.898Z","mtime":"2020-04-15T09:38:55.898Z","ctime":"2020-04-15T09:38:55.898Z","birthtime":"2020-04-15T09:38:55.898Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:39:19,881 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664846,"size":237,"blocks":8,"atimeMs":1586943520950.6416,"mtimeMs":1586943559819.525,"ctimeMs":1586943559819.525,"birthtimeMs":1586929741580.361,"atime":"2020-04-15T09:38:40.951Z","mtime":"2020-04-15T09:39:19.820Z","ctime":"2020-04-15T09:39:19.820Z","birthtime":"2020-04-15T05:49:01.580Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:39:20,083 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/router.js change
+2020-04-15 17:51:36,827 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/register.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1719639,"size":320,"blocks":8,"atimeMs":1586943535897.5923,"mtimeMs":1586944296764.653,"ctimeMs":1586944296764.653,"birthtimeMs":1586943535897.5923,"atime":"2020-04-15T09:38:55.898Z","mtime":"2020-04-15T09:51:36.765Z","ctime":"2020-04-15T09:51:36.765Z","birthtime":"2020-04-15T09:38:55.898Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:51:37,034 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/controller/register.js change
+2020-04-15 17:51:39,680 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/controller/register.js change
+2020-04-15 17:51:39,428 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/register.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1719639,"size":320,"blocks":8,"atimeMs":1586944298976.6228,"mtimeMs":1586944299416.9185,"ctimeMs":1586944299416.9185,"birthtimeMs":1586943535897.5923,"atime":"2020-04-15T09:51:38.977Z","mtime":"2020-04-15T09:51:39.417Z","ctime":"2020-04-15T09:51:39.417Z","birthtime":"2020-04-15T09:38:55.898Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:51:39,479 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/register.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1719639,"size":320,"blocks":8,"atimeMs":1586944298976.6228,"mtimeMs":1586944299416.9185,"ctimeMs":1586944299416.9185,"birthtimeMs":1586943535897.5923,"atime":"2020-04-15T09:51:38.977Z","mtime":"2020-04-15T09:51:39.417Z","ctime":"2020-04-15T09:51:39.417Z","birthtime":"2020-04-15T09:38:55.898Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:51:49,002 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/router.js change
+2020-04-15 17:51:48,745 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664846,"size":236,"blocks":8,"atimeMs":1586943562147.6882,"mtimeMs":1586944308733.347,"ctimeMs":1586944308733.347,"birthtimeMs":1586929741580.361,"atime":"2020-04-15T09:39:22.148Z","mtime":"2020-04-15T09:51:48.733Z","ctime":"2020-04-15T09:51:48.733Z","birthtime":"2020-04-15T05:49:01.580Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:51:48,796 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664846,"size":236,"blocks":8,"atimeMs":1586943562147.6882,"mtimeMs":1586944308733.347,"ctimeMs":1586944308733.347,"birthtimeMs":1586929741580.361,"atime":"2020-04-15T09:39:22.148Z","mtime":"2020-04-15T09:51:48.733Z","ctime":"2020-04-15T09:51:48.733Z","birthtime":"2020-04-15T05:49:01.580Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:51:50,302 WARN 55143 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/router.js change
+2020-04-15 17:51:50,049 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664846,"size":236,"blocks":8,"atimeMs":1586944310036.5813,"mtimeMs":1586944310037.86,"ctimeMs":1586944310037.86,"birthtimeMs":1586929741580.361,"atime":"2020-04-15T09:51:50.037Z","mtime":"2020-04-15T09:51:50.038Z","ctime":"2020-04-15T09:51:50.038Z","birthtime":"2020-04-15T05:49:01.580Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 17:51:50,099 INFO 55143 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664846,"size":236,"blocks":8,"atimeMs":1586944310036.5813,"mtimeMs":1586944310037.86,"ctimeMs":1586944310037.86,"birthtimeMs":1586929741580.361,"atime":"2020-04-15T09:51:50.037Z","mtime":"2020-04-15T09:51:50.038Z","ctime":"2020-04-15T09:51:50.038Z","birthtime":"2020-04-15T05:49:01.580Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-15 22:00:50,375 ERROR 55143 nodejs.ClusterClientNoResponseError: client no response in 10147456ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/erchuang.li/workspace/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 55143
+hostname: erchuanglideMacBook-Pro.local
+
+2020-04-16 18:03:49,038 INFO 64886 [egg:logger] init all loggers with options: {"dir":"/Users/erchuang.li/workspace/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-16 18:03:49,049 INFO 64886 [egg:core] dump config after load, 4ms
+2020-04-16 18:03:49,088 INFO 64886 [egg-watcher] Start watching: ["/Users/erchuang.li/workspace/egg-demo/app","/Users/erchuang.li/workspace/egg-demo/config","/Users/erchuang.li/workspace/egg-demo/mocks","/Users/erchuang.li/workspace/egg-demo/mocks_proxy","/Users/erchuang.li/workspace/egg-demo/app.js"]
+2020-04-16 18:03:49,088 INFO 64886 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app"
+2020-04-16 18:03:49,088 INFO 64886 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/config"
+2020-04-16 18:03:49,088 INFO 64886 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks"
+2020-04-16 18:03:49,088 INFO 64886 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks_proxy"
+2020-04-16 18:03:49,088 INFO 64886 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app.js"
+2020-04-16 18:03:49,088 INFO 64886 [egg-watcher:agent] watcher start success
+2020-04-16 18:03:49,103 INFO 64886 [egg:core] dump config after ready, 3ms
+2020-04-16 18:04:37,825 WARN 64886 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/controller/home.js change
+2020-04-16 18:04:37,620 INFO 64886 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664851,"size":215,"blocks":8,"atimeMs":1586929743733.7925,"mtimeMs":1587031477556.5935,"ctimeMs":1587031477556.5935,"birthtimeMs":1586929741581.4114,"atime":"2020-04-15T05:49:03.734Z","mtime":"2020-04-16T10:04:37.557Z","ctime":"2020-04-16T10:04:37.557Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-16 18:04:57,804 WARN 64886 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/controller/home.js change
+2020-04-16 18:04:57,598 INFO 64886 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664851,"size":214,"blocks":8,"atimeMs":1587031478785.688,"mtimeMs":1587031497535.5554,"ctimeMs":1587031497535.5554,"birthtimeMs":1586929741581.4114,"atime":"2020-04-16T10:04:38.786Z","mtime":"2020-04-16T10:04:57.536Z","ctime":"2020-04-16T10:04:57.536Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-16 18:06:29,961 WARN 64886 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/controller/home.js change
+2020-04-16 18:06:29,757 INFO 64886 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664851,"size":222,"blocks":8,"atimeMs":1587031499819.4355,"mtimeMs":1587031589696.128,"ctimeMs":1587031589696.128,"birthtimeMs":1586929741581.4114,"atime":"2020-04-16T10:04:59.819Z","mtime":"2020-04-16T10:06:29.696Z","ctime":"2020-04-16T10:06:29.696Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-16 18:10:09,992 WARN 64886 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/controller/home.js change
+2020-04-16 18:10:09,787 INFO 64886 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664851,"size":212,"blocks":8,"atimeMs":1587031590967.5256,"mtimeMs":1587031809724.7332,"ctimeMs":1587031809724.7332,"birthtimeMs":1586929741581.4114,"atime":"2020-04-16T10:06:30.968Z","mtime":"2020-04-16T10:10:09.725Z","ctime":"2020-04-16T10:10:09.725Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-16 18:56:36,780 ERROR 64886 nodejs.ClusterClientNoResponseError: client no response in 2065691ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/erchuang.li/workspace/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 64886
+hostname: erchuanglideMacBook-Pro.local
+
+2020-04-16 19:13:02,859 ERROR 64886 nodejs.ClusterClientNoResponseError: client no response in 265973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/erchuang.li/workspace/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 64886
+hostname: erchuanglideMacBook-Pro.local
+
+2020-04-16 21:12:27,728 ERROR 64886 nodejs.ClusterClientNoResponseError: client no response in 7164865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/erchuang.li/workspace/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 64886
+hostname: erchuanglideMacBook-Pro.local
+
+2020-04-16 21:15:34,607 INFO 65372 [egg:logger] init all loggers with options: {"dir":"/Users/erchuang.li/workspace/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-16 21:15:34,617 INFO 65372 [egg:core] dump config after load, 3ms
+2020-04-16 21:15:34,647 INFO 65372 [egg-watcher] Start watching: ["/Users/erchuang.li/workspace/egg-demo/app","/Users/erchuang.li/workspace/egg-demo/config","/Users/erchuang.li/workspace/egg-demo/mocks","/Users/erchuang.li/workspace/egg-demo/mocks_proxy","/Users/erchuang.li/workspace/egg-demo/app.js"]
+2020-04-16 21:15:34,647 INFO 65372 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app"
+2020-04-16 21:15:34,648 INFO 65372 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/config"
+2020-04-16 21:15:34,648 INFO 65372 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks"
+2020-04-16 21:15:34,648 INFO 65372 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks_proxy"
+2020-04-16 21:15:34,648 INFO 65372 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app.js"
+2020-04-16 21:15:34,648 INFO 65372 [egg-watcher:agent] watcher start success
+2020-04-16 21:15:34,658 INFO 65372 [egg:core] dump config after ready, 2ms
+2020-04-16 21:17:41,500 WARN 65372 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/app/router.js change
+2020-04-16 21:17:41,294 INFO 65372 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664846,"size":238,"blocks":8,"atimeMs":1586944312344.879,"mtimeMs":1587043061230.301,"ctimeMs":1587043061230.301,"birthtimeMs":1586929741580.361,"atime":"2020-04-15T09:51:52.345Z","mtime":"2020-04-16T13:17:41.230Z","ctime":"2020-04-16T13:17:41.230Z","birthtime":"2020-04-15T05:49:01.580Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-16 21:37:32,589 INFO 65372 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/erchuang.li/workspace/egg-demo/app/public/bundle.3a0cc8fc10ee503746ed.js","remove":true,"isDirectory":false,"isFile":false}
+2020-04-16 21:37:32,590 INFO 65372 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/erchuang.li/workspace/egg-demo/app/public/bundle.3a0cc8fc10ee503746ed.js.map","remove":true,"isDirectory":false,"isFile":false}
+2020-04-16 21:37:32,590 INFO 65372 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/erchuang.li/workspace/egg-demo/app/public/index.html","remove":true,"isDirectory":false,"isFile":false}
+2020-04-16 22:47:31,932 WARN 65372 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/config/config.default.js change
+2020-04-16 22:47:31,729 INFO 65372 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664848,"size":1008,"blocks":8,"atimeMs":1586943366155.028,"mtimeMs":1587048451667.3022,"ctimeMs":1587048451667.3022,"birthtimeMs":1586929741580.6833,"atime":"2020-04-15T09:36:06.155Z","mtime":"2020-04-16T14:47:31.667Z","ctime":"2020-04-16T14:47:31.667Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-16 22:51:07,553 INFO 65372 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/erchuang.li/workspace/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1664848,"size":968,"blocks":8,"atimeMs":1587048453987.1023,"mtimeMs":1587048667491.3486,"ctimeMs":1587048667491.3486,"birthtimeMs":1586929741580.6833,"atime":"2020-04-16T14:47:33.987Z","mtime":"2020-04-16T14:51:07.491Z","ctime":"2020-04-16T14:51:07.491Z","birthtime":"2020-04-15T05:49:01.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-16 22:51:07,758 WARN 65372 [agent:development] reload worker because /Users/erchuang.li/workspace/egg-demo/config/config.default.js change
+2020-04-17 08:30:06,189 ERROR 65372 nodejs.ClusterClientNoResponseError: client no response in 24938687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/erchuang.li/workspace/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 65372
+hostname: erchuanglideMacBook-Pro.local
+
+2020-04-17 09:27:09,150 ERROR 65372 nodejs.ClusterClientNoResponseError: client no response in 3422923ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/erchuang.li/workspace/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 65372
+hostname: erchuanglideMacBook-Pro.local
+

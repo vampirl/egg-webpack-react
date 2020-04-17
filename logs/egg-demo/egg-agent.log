@@ -1,0 +1,11 @@
+2020-04-17 09:52:11,280 INFO 65372 [egg-logrotator] agent logger reload: got log-reload message
+2020-04-17 09:53:17,473 INFO 67781 [egg:logger] init all loggers with options: {"dir":"/Users/erchuang.li/workspace/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-17 09:53:17,482 INFO 67781 [egg:core] dump config after load, 4ms
+2020-04-17 09:53:17,522 INFO 67781 [egg-watcher] Start watching: ["/Users/erchuang.li/workspace/egg-demo/app","/Users/erchuang.li/workspace/egg-demo/config","/Users/erchuang.li/workspace/egg-demo/mocks","/Users/erchuang.li/workspace/egg-demo/mocks_proxy","/Users/erchuang.li/workspace/egg-demo/app.js"]
+2020-04-17 09:53:17,523 INFO 67781 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app"
+2020-04-17 09:53:17,523 INFO 67781 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/config"
+2020-04-17 09:53:17,523 INFO 67781 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks"
+2020-04-17 09:53:17,523 INFO 67781 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/mocks_proxy"
+2020-04-17 09:53:17,523 INFO 67781 [egg-watcher] Start watching: "/Users/erchuang.li/workspace/egg-demo/app.js"
+2020-04-17 09:53:17,523 INFO 67781 [egg-watcher:agent] watcher start success
+2020-04-17 09:53:17,535 INFO 67781 [egg:core] dump config after ready, 3ms

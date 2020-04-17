@@ -1,0 +1,330 @@
+{
+  "keys": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+  "middleware": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+      "port": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+      "user": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+      "password": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+      "database": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js"
+    },
+    "app": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+    "agent": "/Users/erchuang.li/workspace/egg-demo/config/config.default.js",
+    "default": {
+      "database": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "name": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "version": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "description": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "private": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "main": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@babel/core": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "@babel/preset-react": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "bable-loader": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "egg": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "mini-css-extract-plugin": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "react": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "clean-webpack-plugin": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "stop": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "dev:server": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "dev:client": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "debug": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "test": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "cov": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "lint": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "ci": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "autod": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "build": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "url": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "license": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "env": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "level": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "port": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/erchuang.li/workspace/egg-demo/node_modules/egg/config/config.default.js"
+}
