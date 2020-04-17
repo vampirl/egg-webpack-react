@@ -6,7 +6,7 @@ class HomePage extends Component{
   }
   render() {
     return (
-    <div>1</div>
+    <div>2222</div>
     )
   }
 }

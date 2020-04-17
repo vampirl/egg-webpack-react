@@ -1,5 +1,5 @@
-import React, { lazy } from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import React, { lazy, Suspense} from 'react';
+import {BrowserRouter as Router, Route, } from 'react-router-dom';
 
 
 const ROUTE_CONFIG = [
@@ -15,8 +15,10 @@ export const getRoutes = () => {
     return <Route path={path} component={component} key={path} exact/>
   });
   return (
-    <Router>
-      {loadedRoutes}
-    </Router>
+    <Suspense fallback={<div>loading</div>}>
+      <Router>
+        {loadedRoutes}
+      </Router>
+    </Suspense>
   );
 };
