@@ -13,21 +13,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: "babel-loader",
         // 引入该后缀文件的时候可以不带后缀
         resolve: {
           extensions: [".js", ".jsx"]
         }
-      },
-      {
-        test: /\.jsx?$/,
-        loader: "babel-loader",
-        // 引入该后缀文件的时候可以不带后缀
-        resolve: {
-          extensions: [".js", ".jsx"]
-        } 
       },
       {
         test: /\.css$/,
