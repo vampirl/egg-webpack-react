@@ -4,10 +4,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry : './client/src/index.jsx',
+  entry : './client/src/index.jsx', //  入口文件，绝对路径
   output: {
     filename: 'bundle.[hash].js',
-    path: path.join(__dirname, '../app/public')
+    path: path.join(__dirname, '../app/public') // 打包地址
   },
   module: {
     rules: [
@@ -38,14 +38,11 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './client/src/index.html'
+      template: './client/src/index.html' // html模版路径
     }),
     new MiniCssExtractPlugin({
       filename: "[name]/[contenthash:8].bundle.css",
       chunkFilename: "[name]/[contenthash:8].chunk.css"
     }),
-  ],
-  resolve: {
-    extensions: ['.js', '.jsx',]
-  }
+  ]
 }
