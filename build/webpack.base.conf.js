@@ -12,21 +12,14 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: /\.jsx?$/,
-      //   loader: "eslint-loader",
-      //   // pre 优先处理
-      //   enforce: "pre",
-      //   include: path.resolve(__dirname, "../client"),
-      // },
       {
-        test: /\.js$/,
+        test: /\.jsx$/,
         exclude: /node_modules/,
         loader: "babel-loader",
         // 引入该后缀文件的时候可以不带后缀
         resolve: {
           extensions: [".js", ".jsx"]
-        } 
+        }
       },
       {
         test: /\.jsx?$/,
