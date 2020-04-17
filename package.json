@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "test for egg",
   "private": true,
-  "main": "index.js",
   "egg": {
     "declarations": true
   },

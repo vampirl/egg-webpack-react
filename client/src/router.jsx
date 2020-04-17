@@ -1,5 +1,5 @@
 import React, { lazy } from 'react';
-import {Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 const ROUTE_CONFIG = [
@@ -14,9 +14,8 @@ export const getRoutes = () => {
   const loadedRoutes = ROUTE_CONFIG.map(({path, component}) => {
     return <Route path={path} component={component} key={path} exact/>
   });
-  console.log(loadedRoutes)
   return (
-    <Router history={History}>
+    <Router>
       {loadedRoutes}
     </Router>
   );
