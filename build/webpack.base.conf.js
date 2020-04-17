@@ -4,8 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  context: path.resolve(__dirname, '../client'),
-  entry : './src/index.js',
+  entry : './client/src/index.jsx',
   output: {
     filename: 'bundle.[hash].js',
     path: path.join(__dirname, '../app/public')
@@ -40,7 +39,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       chunks: ['index'],
       filename: 'index.html',
-      template: './src/index.html'
+      template: './client/src/index.html'
     }),
     // new MiniCssExtractPlugin({
     //   filename: "[name]/[contenthash:8].bundle.css",
