@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import {getRoutes} from './router';
-import './style.less'
+
+import '../libs/before-load';
+import './style.less';
 
 class App extends Component {
     render() {

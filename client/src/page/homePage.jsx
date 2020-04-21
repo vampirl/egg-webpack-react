@@ -6,7 +6,7 @@ class HomePage extends Component{
   }
   render() {
     return (
-    <div>2222</div>
+      <div>hello webpack</div>
     )
   }
 }

@@ -35,7 +35,7 @@ module.exports = {
           {
             loader: "less-loader",
             options: {
-              sourceMap: false
+              sourceMap: false //产生.map文件
             }
           }
         ]
