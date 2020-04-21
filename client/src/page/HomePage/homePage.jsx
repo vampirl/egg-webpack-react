@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './style.less';
 
 class HomePage extends Component{
   constructor(props) {
@@ -6,7 +7,7 @@ class HomePage extends Component{
   }
   render() {
     return (
-      <div>hello webpack</div>
+      <div className='homepage'>hello webpack</div>
     )
   }
 }

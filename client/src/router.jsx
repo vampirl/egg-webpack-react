@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Route, } from 'react-router-dom';
 const ROUTE_CONFIG = [
   {
     path: '/', // 首页
-    component: lazy(() => import(/* webpackChunkName: 'asset-maintain/HomePage' */ './page/homePage'))
+    component: lazy(() => import(/* webpackChunkName: 'asset-maintain/HomePage' */ './page/HomePage/homePage'))
   }
 ];
 
