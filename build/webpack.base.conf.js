@@ -20,9 +20,11 @@ module.exports = {
           extensions: [".js", ".jsx"]
         }
       },
+      // less & css
       {
-        test: /\.css$/,
+        test: /\.css|\.less$/,
         use: [
+          { loader: "style-loader" },
           { loader: MiniCssExtractPlugin.loader },
           {
             loader: "css-loader",
@@ -30,6 +32,12 @@ module.exports = {
               sourceMap: false
             }
           },
+          {
+            loader: "less-loader",
+            options: {
+              sourceMap: false
+            }
+          }
         ]
       }
     ]

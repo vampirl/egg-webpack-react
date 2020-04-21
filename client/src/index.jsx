@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-import {getRoutes} from './router'
+import {getRoutes} from './router';
+import './style.less'
 
 class App extends Component {
     render() {
-        return <div>{getRoutes()}</div>
+        return <div className='warp'>{getRoutes()}</div>
     }
 }
 
