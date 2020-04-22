@@ -33,6 +33,9 @@ module.exports = {
             }
           },
           {
+            loader: "postcss-loader"
+          },
+          {
             loader: "less-loader",
             options: {
               sourceMap: false //产生.map文件
