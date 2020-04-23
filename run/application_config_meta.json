@@ -181,6 +181,7 @@
       "@babel/core": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "@babel/preset-env": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "@babel/preset-react": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "bable-loader": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "egg": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
@@ -210,6 +211,8 @@
       "html-webpack-plugin": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "less": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "less-loader": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
+      "postcss": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "style-loader": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "webpack-dev-server": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "webpack-merge": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js"
