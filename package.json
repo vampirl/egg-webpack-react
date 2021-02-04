@@ -11,6 +11,7 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "autoprefixer": "^9.7.6",
+    "axios": "^0.21.1",
     "bable-loader": "0.0.1-security",
     "egg": "^2.15.1",
     "egg-mysql": "^3.0.0",
