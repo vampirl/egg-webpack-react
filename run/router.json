@@ -5,6 +5,30 @@
       "HEAD",
       "GET"
     ],
+    "paramNames": [
+      {
+        "name": "action",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/:action",
+    "regexp": "/^\\/api\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
     "paramNames": [],
     "path": "/getUsername",
     "regexp": "/^\\/getUsername(?:\\/(?=$))?$/",

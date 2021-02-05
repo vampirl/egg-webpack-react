@@ -182,6 +182,7 @@
       "@babel/preset-env": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "@babel/preset-react": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "autoprefixer": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
+      "axios": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "bable-loader": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "egg": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/erchuang.li/workspace/egg-webpack-react/node_modules/egg/config/config.default.js",
